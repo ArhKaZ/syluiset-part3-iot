@@ -10,3 +10,5 @@ spec:
       protocol: TCP
   selector:
     app: wil-playground
+  type:
+    LoadBalancer
