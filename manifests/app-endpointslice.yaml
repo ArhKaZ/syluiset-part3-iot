@@ -11,9 +11,8 @@ ports:
     port: 8888
 endpoints:
   - addresses:
-      - "10.13.200.39"
+      - "127.0.0.1"
     conditions:
       ready: true
     hostname: wil-playground
     nodeName: wil-playground
-    zone: us-west1-a
